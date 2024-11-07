@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puspa Dewi K</title>
+</head>
+<body>
+    <h1>BIODATA</h1>
+
+    <?php
+    // Mendefinisikan variabel biodata
+    $nama = "Puspa Dewi Kusumawati";
+    $nim = "D212111012";
+    $alamat = "Kota Cimahi";
+    $JK = "PEREMPUAN";
+    $umur = "21";
+    $berat = "67 kg";
+    $tinggi = "168 cm";
+    $hobi = array("Menonton Movie", "Menyanyi");
+    ?>
+
+    <table border="1" cellspacing="0">
+        <tr>
+            <td>NAMA</td>
+            <td> : </td>
+            <td><?php echo $nama; ?></td>
+        </tr>
+
+        <tr> 
+            <td>NIM</td>
+            <td> : </td>
+            <td><?php echo $nim; ?></td>
+        </tr>
+
+        <tr> 
+            <td>Alamat</td>
+            <td> : </td>
+            <td><?php echo $alamat; ?></td>
+        </tr> 
+
+        <tr> 
+            <td>Jenis Kelamin</td>
+            <td> : </td>
+            <td><?php echo $JK; ?></td>
+        </tr>
+
+        <tr> 
+            <td>Umur</td>
+            <td> : </td>
+            <td><?php echo $umur; ?></td>
+        </tr>
+
+        <tr> 
+            <td>Berat Badan</td>
+            <td> : </td>
+            <td><?php echo $berat; ?></td>
+        </tr>
+
+        <tr> 
+            <td>Tinggi Badan</td>
+            <td> : </td>
+            <td><?php echo $tinggi; ?></td>
+        </tr>
+
+        <tr> 
+            <td>Hobi</td>
+            <td> : </td>
+            <td>
+                <ul>
+                    <?php foreach ($hobi as $h): ?>
+                        <li><?php echo $h; ?></li>
+                    <?php endforeach; ?>
+                </ul>    
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
