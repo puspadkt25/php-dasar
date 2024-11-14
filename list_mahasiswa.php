@@ -2,8 +2,8 @@
 $multidimensi = [
     [
         "no" => 1,
-        "nim" => "D212111001",
-        "nama" => "Aliftia Radianti Taniasari",
+        "nim" => "D212111012",
+        "nama" => "Puspa Dewi Kusumawati",
     ],
     [
         "no" => 2,
