@@ -8,7 +8,8 @@
             exit;
         }
     }
-    $mysqli = new mysqli('localhost', 'root', '', 'absen');
+    $mysqli = new mysqli('localhost', 'root', '', 'tedc
+    ');
 
     $Nim = $_GET['nim'];
     $mahasiswa = $mysqli->query("SELECT * FROM mahasiswa WHERE Nim='$Nim'");
