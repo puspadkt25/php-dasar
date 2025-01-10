@@ -6,7 +6,7 @@
             exit;
         }
     }
-    $mysqli = new mysqli('localhost', 'root', '', 'absen');
+    $mysqli = new mysqli('localhost', 'root', '', 'tedc');
 
     $Nim = $_GET['nim'];
     $delete = $mysqli->query("DELETE  FROM mahasiswa WHERE Nim='$Nim'");
